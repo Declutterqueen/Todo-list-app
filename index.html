@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+
+
+
+<body>
+  <main>
+  <div class="app">
+    <h1>📝 To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- This button is now OUTSIDE and BELOW the .app -->
+  <button id="darkModeToggle" onclick="toggleDarkMode()">🌓 Toggle Dark Mode</button>
+  <div class="status-card">
+  <p id="taskCount">Tasks: 0</p>
+  <p id="emptyMessage">Your task list is empty 📭</p></div>
+  </main>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <p>Created by <a href="https://github.com/Declutterqueen/Declutter-portfolio" target="_blank">Mehreen</a></p>
+  </footer>
+</body>
+
+
+
+
+
+<!--<body>
+  <div class="app">
+    <h1>📝 To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+    
+  </div>
+  <button onclick="toggleDarkMode()">🌓 Toggle Dark Mode</button>
+  <p id="taskCount">Tasks: 0</p>
+  <p id="emptyMessage">Your task list is empty 📭</p>
+  
+  
+  <script src="script.js">
+    
+    
+    
+  </script>
+  <footer>
+  <p>Created by <a href="https://github.com/Declutterqueen/Declutter-portfolio" target="_blank">Mehreen</a>
+    
+  </footer>
+  
+  
+</body>-->
+</html>
