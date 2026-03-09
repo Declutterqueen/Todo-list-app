@@ -24,7 +24,7 @@ A clean, responsive, and interactive **To-Do List web application** built with H
 
 ## Screenshot
 
-![To-Do List Screenshot](./screenshot.png)
+![To-Do List Screenshot](./todolist.jpg)
 
 ---
 
